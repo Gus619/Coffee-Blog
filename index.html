@@ -8,30 +8,31 @@
 </head>
 <body>
     <header>
-        <h1>CoffeeBlog</h1>
+        <div class="header-flex">
+            <h1>CoffeeBlog</h1>
+            <nav class="menu">
+                <a href="about.html">About Us</a>
+                <a href="Courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
         <p>Coffee Blog with tips and courses</p>
         <P>Learn from the experts with the best prices and tips</P>
     </header>
-    <main>
-        <h2>Our Blog</h2>
-        <div>
-            <img src="./img/blog1.jpg" alt="">
-            <h3>Coffee Bean type</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, nostrum consectetur saepe fugit voluptates harum perferendis? Illo molestiae, fuga voluptatum reiciendis minus quibusdam incidunt labore aliquam dignissimos! Perspiciatis, laborum quasi!</p>
-            <a href="#">See More</a>
-        </div>
-        <div>
-            <img src="./img/blog2.jpg" alt="">
-            <h3>3 Delicious Coffee Recipe</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, nostrum consectetur saepe fugit voluptates harum perferendis? Illo molestiae, fuga voluptatum reiciendis minus quibusdam incidunt labore aliquam dignissimos! Perspiciatis, laborum quasi!</p>
-            <a href="#">See More</a>
-        </div>
-        <div>
-            <img src="./img/blog3.jpg" alt="">
-            <h3>Coffee Benefits</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, nostrum consectetur saepe fugit voluptates harum perferendis? Illo molestiae, fuga voluptatum reiciendis minus quibusdam incidunt labore aliquam dignissimos! Perspiciatis, laborum quasi!</p>
-            <a href="#">See More</a>
-        </div>
-    </main>
+    <div class="main-flex container">
+        <main class="blog-container">
+            <h2>About Us</h2>
+            <div class="blog-item">
+                <img src="./img/contact.jpg" alt="">              
+            </div>
+        </main>
+        <section class="courses-container">
+                    <div class="course-item">
+                        <h3>Coffee Bean Type</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et obcaecati itaque sit reprehenderit eligendi pariatur minus inventore! Optio labore exercitationem animi doloremque vitae, sint hic id blanditiis debitis, non maxime!</p>           
+                        <a class="btn-details" href="https://www.kape.coffee">more information</a>
+                    </div>
+        </section>          
+    </div>
 </body>
 </html>
