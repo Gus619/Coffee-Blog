@@ -8,6 +8,7 @@ body {
     font-family: Calibri;
     font-size: 24px;
     text-align:left;
+    border-radius: 10%;
 }   
     p{  
         line-height: 2;
@@ -63,9 +64,10 @@ header{
     background-image: url(./img/banner.jpg);
     background-size: cover;
     color:white;
-    height: 300px;
+    height: 200px;
     text-align: center;
     margin: auto;
+    margin: 10%;
 }
 .header-flex{
     height: 100px;
@@ -74,6 +76,29 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+
+footer{
+    
+    color:white;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+  
+}
+.footer-flex {
+
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: burlywood
+}
+
+
+
+
+
 
 .menu a{
     color:black
@@ -96,11 +121,12 @@ header{
     border-width: 10px;
     color:black;
 }
-.blog-container{
+.blog-container {
+
     width: 65%;
   
-.courses-container{
-    width: 35px
+    .courses-container{
+        width: 35px
 }
-
     
+}
